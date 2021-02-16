@@ -1,0 +1,11 @@
+framework module LocMarketing {
+  umbrella header "LocMarketing.h"
+
+  export *
+  module * { export * }
+}
+
+module LocMarketing.Swift {
+    header "LocMarketing-Swift.h"
+    requires objc
+}
