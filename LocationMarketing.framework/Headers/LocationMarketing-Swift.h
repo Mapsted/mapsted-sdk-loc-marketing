@@ -189,6 +189,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import CoreLocation;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -210,10 +212,45 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSCoder;
 
+SWIFT_CLASS("_TtC17LocationMarketing30CampaignCreativeCollectionCell")
+@interface CampaignCreativeCollectionCell : UICollectionViewCell
+- (void)awakeFromNib;
+- (void)prepareForReuse;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17LocationMarketing25CampaignCreativeTableCell")
+@interface CampaignCreativeTableCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)prepareForReuse;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17LocationMarketing20CampaignCreativeView")
+@interface CampaignCreativeView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC17LocationMarketing9HTMLLabel")
 @interface HTMLLabel : UILabel
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
+
+SWIFT_CLASS("_TtC17LocationMarketing25InAppNotifyViewController")
+@interface InAppNotifyViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -226,6 +263,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LocMarketing
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+
+
+SWIFT_CLASS("_TtC17LocationMarketing19PropertyGeofenceApi")
+@interface PropertyGeofenceApi : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class CLLocationManager;
+@class CLLocation;
+@class CLRegion;
+@class CLVisit;
+
+@interface PropertyGeofenceApi (SWIFT_EXTENSION(LocationMarketing)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didVisit:(CLVisit * _Nonnull)visit;
+@end
+
+
+SWIFT_CLASS("_TtC17LocationMarketing6Region")
+@interface Region : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 
 
