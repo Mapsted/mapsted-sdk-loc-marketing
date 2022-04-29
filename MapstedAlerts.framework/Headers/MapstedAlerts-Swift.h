@@ -196,7 +196,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreData;
-@import MapstedTriggersCore;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -252,12 +251,15 @@ SWIFT_CLASS("_TtC13MapstedAlerts20AlertConfigurationDO")
 
 
 @interface AlertConfigurationDO (SWIFT_EXTENSION(MapstedAlerts))
+@property (nonatomic) BOOL audio;
+@property (nonatomic) BOOL autoDismiss;
 @property (nonatomic) BOOL enableDetour;
 @property (nonatomic) BOOL lastingAlert;
 @property (nonatomic) BOOL listView;
 @property (nonatomic) BOOL mapShowInternal;
 @property (nonatomic) int32_t priority;
 @property (nonatomic) BOOL timedDelayAlert;
+@property (nonatomic) BOOL vibration;
 @property (nonatomic, strong) AlertDO * _Nullable ofAlert;
 @end
 
@@ -293,10 +295,13 @@ SWIFT_CLASS("_TtC13MapstedAlerts7AlertDO")
 @interface AlertDO (SWIFT_EXTENSION(MapstedAlerts))
 @property (nonatomic, copy) NSString * _Nullable alertId;
 @property (nonatomic, copy) NSString * _Nullable alertJSON;
+@property (nonatomic, copy) NSString * _Nullable alertModifiedLocationsJSON;
+@property (nonatomic, copy) NSString * _Nullable alertRouteToLocationsJSON;
 @property (nonatomic, copy) NSDate * _Nullable dateCreated;
 @property (nonatomic, copy) NSDate * _Nullable endDate;
 @property (nonatomic, copy) NSString * _Nullable entityFillColor;
 @property (nonatomic, copy) NSString * _Nullable imageBaseUrl;
+@property (nonatomic) BOOL isEmergency;
 @property (nonatomic) int32_t propertyId;
 @property (nonatomic, copy) NSDate * _Nullable startDate;
 @property (nonatomic, copy) NSString * _Nullable status;
@@ -424,15 +429,6 @@ SWIFT_CLASS("_TtC13MapstedAlerts22AlertTriggerLocationDO")
 @property (nonatomic, strong) NSSet * _Nullable entities;
 @property (nonatomic, strong) AlertTriggerDO * _Nullable ofAlertTrigger;
 @end
-
-
-
-SWIFT_CLASS("_TtC13MapstedAlerts20MapstedAlertsManager")
-@interface MapstedAlertsManager : MapstedTriggersManager
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 
 

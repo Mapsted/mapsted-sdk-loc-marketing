@@ -198,7 +198,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import CoreLocation;
 @import Foundation;
-@import MapstedTriggersCore;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -244,19 +243,6 @@ SWIFT_CLASS("_TtC17LocationMarketing20CampaignCreativeView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
-
-
-SWIFT_CLASS("_TtC17LocationMarketing19LocMarketingManager")
-@interface LocMarketingManager : MapstedTriggersManager
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LocMarketingManager * _Nonnull shared;)
-+ (LocMarketingManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
 
 
 
