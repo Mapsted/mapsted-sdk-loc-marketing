@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		5H1PYl5DYGzNVSvKv7BOSnoX/lU=
+		tjA9Z60FIgDcIW9uDHigsc89+Lg=
 		</data>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
 		<data>
-		W+BpPSzb/0kt4Edc87F8xHghenY=
+		cYCkr0B9N/iyjeJouePyGxdDIPM=
 		</data>
 		<key>Headers/MapstedTriggersCore.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>InAppNotifyViewController.nib</key>
 		<data>
-		erY3DW+ApBd9SwL8V6rfWGKMQkY=
+		8NQ2XTRajzYkRWjNUnJjkHkIs2U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4pLY6aOG8NTRg+1Gx0UMUdWN86k=
+		3pZ7kEjkeiG19G7ERg+lnivhcPI=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		3Zb5EwqPdsHFi3+dfo1BrFfFi5s=
+		0m4PYzrB61FI40gCOM+FNXLsZ68=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ESnpGrsOVTrRle8Khbm99zrewYA=
+		v4o++h31vMv7umB6ukri90aDkVk=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TZ3ItN6p/T+Xp/3iZ19f7+PMb3A=
+		LnqhJQzpU9oR1+LX6zQ8cLSNUbc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>NotifyPopup.storyboardc/cb4-aU-Kvo-view-RLo-EL-yWy.nib</key>
 		<data>
-		0WYFkUssaNQ07MXsHXHGIrDvORc=
+		FeF4C1BDONA0NBJXapxT+IEiA5I=
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		nW3tAC4wpbAHIvqFm/c+w3P0fU0=
+		ETjGCSU5iP2fzsICGwoZxsqwVCI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			87v4ybjKBP56nMkCUdvv0dNuQn66GtrFOCAOBT56cd4=
+			ioE0gl8qoZGQzS9wxROhspH5RD8fJabC9eb5y5BOTPU=
 			</data>
 		</dict>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SFIzBqkqJj+xTpwZKFrI4qq2SMV6Zs/fdWfwhdrtXBM=
+			2YCnkmy3tB9Z+zdhYV5NR5ENTnNel9b9CTf+GNQnZlY=
 			</data>
 		</dict>
 		<key>Headers/MapstedTriggersCore.h</key>
@@ -88,28 +88,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8EYDOyS4Q3pg8RUZgZo39MEDzxq1RlHJe9tL4WQ5OtI=
+			QlPUYGzIXzgQShLIkB3Qzqy8jhnnTKzIDBvGAyklZkg=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvYfdiMT0uU9xrgmCA9uiZWJRxunhB4HBE2HB3Nsayw=
+			FMzH7f3o8CsELdYaICDJpIicpm/vZmJBmsYBqbUkRtU=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fo25qP5iHBq48e4bWcApR7FpYSJhe80L90RB9527yvs=
+			p724+QcqljOTIT5ieTVnE6Rt5Lcx/AJo5AGgBwLo5D4=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cpf8c5y/wv1rwavxOeWWMPoS+9r4CjdWbwBo4idFwTM=
+			Uf9fatLbZ/CrzqQAx9lAM3kc/07JkHhlL9cP014SeEw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iEDg/wBq8x2cPZv/Ku3esru+GM/OJnH3VGhIsLQJlmQ=
+			xjrGah3O4FnttNj0qqLiGwkljaLpq5uOH9Gor21yuiQ=
 			</data>
 		</dict>
 		<key>WebViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lv93aw5k6SUn601Kdl903FQXtnBuQBndqSt2RUcWatU=
+			G5+/cCIMVtPS2bha6DTEpg6rGSrmPmYUf1K0sats/6Y=
 			</data>
 		</dict>
 	</dict>
