@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		CYhjSbZrvuTU5vUvclOuwvgkExE=
-		</data>
 		<key>Assets.car</key>
 		<data>
 		tjA9Z60FIgDcIW9uDHigsc89+Lg=
@@ -26,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sSdryKXxVsPn6oXxvlluA9maOmI=
+		dD0xruDmoSU2ybM5dizL3o7FP6g=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
