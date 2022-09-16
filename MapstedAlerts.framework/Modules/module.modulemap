@@ -6,6 +6,6 @@ framework module MapstedAlerts {
 }
 
 module MapstedAlerts.Swift {
-    header "MapstedAlerts-Swift.h"
-    requires objc
+  header "MapstedAlerts-Swift.h"
+  requires objc
 }

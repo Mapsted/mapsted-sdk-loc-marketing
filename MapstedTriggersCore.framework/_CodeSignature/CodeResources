@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		tjA9Z60FIgDcIW9uDHigsc89+Lg=
+		eKMmVtG90AmLvEAYxvjQ/JjLEi8=
 		</data>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
 		<data>
-		cYCkr0B9N/iyjeJouePyGxdDIPM=
+		j/OBxDBos4fkzz3zAytM4ECyHUY=
 		</data>
 		<key>Headers/MapstedTriggersCore.h</key>
 		<data>
@@ -18,27 +18,31 @@
 		</data>
 		<key>InAppNotifyViewController.nib</key>
 		<data>
-		8NQ2XTRajzYkRWjNUnJjkHkIs2U=
+		liM36jrSVQRn/LUsKaPudXEqPtc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F9tYJeb19EeY4cJ254P27/ooajc=
+		fTkGjLSPuZEkI8/y2i9UiUH1RNo=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		CIfUMcS8MhVVlio1B26ZvoaRWX8=
+		9mjMrO04QJq2OujawBiR0ETuaSs=
+		</data>
+		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		v4o++h31vMv7umB6ukri90aDkVk=
+		bFng3xoM3R/6T9iiuLNISEgtM/M=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LnqhJQzpU9oR1+LX6zQ8cLSNUbc=
+		35e8i9AAaJkBeqyGaVjK1kNvQko=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		PUmT3uaZ2sA4DnBN8mlMK/sZIS0=
+		Y3OZbDcLEN7aCAld+AM+aBg4VGM=
 		</data>
 		<key>NotifyPopup.storyboardc/ID_MARKETINGPAGE.nib</key>
 		<data>
@@ -54,11 +58,11 @@
 		</data>
 		<key>NotifyPopup.storyboardc/cb4-aU-Kvo-view-RLo-EL-yWy.nib</key>
 		<data>
-		FeF4C1BDONA0NBJXapxT+IEiA5I=
+		d/X6DWQP6okQXoDp4byD2roFKTU=
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		ETjGCSU5iP2fzsICGwoZxsqwVCI=
+		miY9MTFvcGXi7ivhP1g8LIIPKxI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioE0gl8qoZGQzS9wxROhspH5RD8fJabC9eb5y5BOTPU=
+			Qt4q1CKWAHIBi93eLiidG3RfHqQkAjupWkWyMi7DfOs=
 			</data>
 		</dict>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2YCnkmy3tB9Z+zdhYV5NR5ENTnNel9b9CTf+GNQnZlY=
+			Q7CFcEGZgLoUyvoG08yFooG15N1UqnExJ7UtgBJEe/M=
 			</data>
 		</dict>
 		<key>Headers/MapstedTriggersCore.h</key>
@@ -88,35 +92,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QlPUYGzIXzgQShLIkB3Qzqy8jhnnTKzIDBvGAyklZkg=
+			72d8vAUZ0GgVYp57DV13NyG2AtP1nC/iF1HVyLTmg5g=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Li6z8IWLHvhlFGKogs1Ewu61ZbGliBHWzNLVPZ/+CgE=
+			jeCEthsXlXM4S0O8KsUPTxYddPHObTrZq9SJj/bLAJQ=
+			</data>
+		</dict>
+		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p724+QcqljOTIT5ieTVnE6Rt5Lcx/AJo5AGgBwLo5D4=
+			E2nStbGqSUfYd7wGSfwdFRuxg9MuwvrguwnBb/m7C04=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uf9fatLbZ/CrzqQAx9lAM3kc/07JkHhlL9cP014SeEw=
+			NuOhln8CcnvlyOeeN/cRGHiC1Pz4GKihk/y48zUJ+5c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8ly6TNKFAMx3sGWr7RceN4wRBSELwOGkblXhPALc/k=
+			6PRc9bDkXpkrUgCyzn1euJjVRrH9rMlFgGbvgZOT7cY=
 			</data>
 		</dict>
 		<key>NotifyPopup.storyboardc/ID_MARKETINGPAGE.nib</key>
@@ -144,14 +155,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjrGah3O4FnttNj0qqLiGwkljaLpq5uOH9Gor21yuiQ=
+			4qBaEPt1Z1Db1Q+MWAjcY06Iv9U6pVMhJ+CzoFzBaag=
 			</data>
 		</dict>
 		<key>WebViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5+/cCIMVtPS2bha6DTEpg6rGSrmPmYUf1K0sats/6Y=
+			lKKUisbMNvPxZXk/A0x/KGDgwviLmFmJ+Cm4yaaAFLU=
 			</data>
 		</dict>
 	</dict>

@@ -6,6 +6,6 @@ framework module MapstedTriggersCore {
 }
 
 module MapstedTriggersCore.Swift {
-    header "MapstedTriggersCore-Swift.h"
-    requires objc
+  header "MapstedTriggersCore-Swift.h"
+  requires objc
 }
