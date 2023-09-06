@@ -322,15 +322,13 @@ SWIFT_CLASS("_TtC17LocationMarketing19PropertyGeofenceApi")
 
 @class CLLocationManager;
 @class CLLocation;
-@class CLRegion;
-@class CLVisit;
 
 @interface PropertyGeofenceApi (SWIFT_EXTENSION(LocationMarketing)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didVisit:(CLVisit * _Nonnull)visit;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 @end
+
+
 
 
 SWIFT_CLASS("_TtC17LocationMarketing6Region")
