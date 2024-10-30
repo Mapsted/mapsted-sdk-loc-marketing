@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LiuZ3XTw0167Hgy39M3GElCyox8=
+		Z2xutqPlvphdSPX4gnRmk/mEUyA=
 		</data>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LXtx8kAIK/mL6uFPf10l9XZEAWk=
+		CT0GU7eYs7/2nvwFOOmXXXPh6BY=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		c9mQTZAUSaYZJDXniwroQ0TTgbI=
+		AU+6orl6BUrgs1ip/DZ4/WNkZIk=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsHYH0jLZj+WP/IizcLzY7uhm107wmt0YXQqhFaR6qQ=
+			o7TMZ+3Z5aE9ZQpyr5rrpoH9gM1iT7NM6ffK/VceeyE=
 			</data>
 		</dict>
 		<key>Headers/MapstedTriggersCore-Swift.h</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8X2Ss8NEjIN/zc1aSSjTJLq+oI7ONxYPU5Io+sZzvPg=
+			wWJoP7COAk3oXjTryMrHD83Y+RU89RaWG44X2TKucGE=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
