@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MapstedAlerts
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedAlerts
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreData
 import DeveloperToolsSupport
 import EventKit
@@ -516,7 +516,6 @@ extension MapstedAlerts.AlertCommunicationDO {
   @objc(removeTriggers:) @NSManaged dynamic public func removeFromTriggers(_ values: Foundation.NSSet)
 }
 extension MapstedAlerts.AlertCommunicationDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertConfigurationDO {
@@ -563,7 +562,6 @@ extension MapstedAlerts.AlertConfigurationDO {
   }
 }
 extension MapstedAlerts.AlertConfigurationDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertDO {
@@ -654,7 +652,6 @@ extension MapstedAlerts.AlertDO {
   @objc(removeTargets:) @NSManaged dynamic public func removeFromTargets(_ values: Foundation.NSSet)
 }
 extension MapstedAlerts.AlertDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertLanguageDO {
@@ -697,7 +694,6 @@ extension MapstedAlerts.AlertLanguageDO {
   }
 }
 extension MapstedAlerts.AlertLanguageDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertScheduleDO {
@@ -724,7 +720,6 @@ extension MapstedAlerts.AlertScheduleDO {
   }
 }
 extension MapstedAlerts.AlertScheduleDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertTargetDO {
@@ -755,7 +750,6 @@ extension MapstedAlerts.AlertTargetDO {
   }
 }
 extension MapstedAlerts.AlertTargetDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertTriggerBehaviorDO {
@@ -770,7 +764,6 @@ extension MapstedAlerts.AlertTriggerBehaviorDO {
   }
 }
 extension MapstedAlerts.AlertTriggerBehaviorDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertTriggerDO {
@@ -793,7 +786,6 @@ extension MapstedAlerts.AlertTriggerDO {
   }
 }
 extension MapstedAlerts.AlertTriggerDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertTriggerEntityDO {
@@ -824,7 +816,6 @@ extension MapstedAlerts.AlertTriggerEntityDO {
   }
 }
 extension MapstedAlerts.AlertTriggerEntityDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.AlertTriggerLocationDO {
@@ -861,7 +852,6 @@ extension MapstedAlerts.AlertTriggerLocationDO {
   @objc(removeEntities:) @NSManaged dynamic public func removeFromEntities(_ values: Foundation.NSSet)
 }
 extension MapstedAlerts.AlertTriggerLocationDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.PropertyDO {
@@ -890,7 +880,6 @@ extension MapstedAlerts.PropertyDO {
   @objc(removeAlerts:) @NSManaged dynamic public func removeFromAlerts(_ values: Foundation.NSSet)
 }
 extension MapstedAlerts.PropertyDO : Swift.Identifiable {
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.ObjectIdentifier
 }
 extension MapstedAlerts.RecurrenceFrequency : Swift.Equatable {}
