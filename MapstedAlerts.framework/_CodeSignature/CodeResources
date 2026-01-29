@@ -50,11 +50,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t+BZ1P5ym1zxFwuXXkSm/UZMx8o=
+		k8RsP5gL99Lkit8X8y/6/QHbIQs=
 		</data>
 		<key>Modules/MapstedAlerts.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		UJsh3gwmvm8kNYZ5T41DzeIp1Y4=
+		qElNibpeW84kg+YDDUUROf+PxAo=
 		</data>
 		<key>Modules/MapstedAlerts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MapstedAlerts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bm0Udz4UjUz4wH0rMM9DQCXWp5M=
+		6zSSSa7IBH49FUwnT0wbZ3TdmZ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVPxpN8MLPEekJz7dWDqWl/qbXuQV6T+F0sxESnmoa8=
+			ugeU/vAt9yRFXEtw+vbr73JjXX3JnlqCObmnxAELhNg=
 			</data>
 		</dict>
 		<key>Modules/MapstedAlerts.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OkSYIsFhxme9PAXqnfoZdeqLsnDU/135WgIQu3pcmOs=
+			vroVHBsRai+iN6T+nFWtwOqZNG5/UwfvQkxdavQQ4ic=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
