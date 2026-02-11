@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HpTE+PFxvYhYUTRcYQ1gp8O1S/Y=
+		RoJ5rCRCQU18yC0wB/j2W1qnGWM=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		yMhd4hjy+RX2luzdvU/3mC9H3ww=
+		c+puUTiBk9Ar41BqihaQsVAyEqE=
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z9shL/W/3XJw96etKK260+hgAYs=
+		ClaAdVXILVuDURlx4h86o4weqrE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhD+eioG60fIKO5tApu16T/6iZoFwJI/sKiuwsHE9H4=
+			uSkFtzozsKcUFNIwVuBWpwC/bK+qkwUY+J1kWxccov8=
 			</data>
 		</dict>
 		<key>Modules/MapstedTriggersCore.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aPTWV3SWYc/sThcKN8FOlLIESrmVlygKZ1wez1gLlww=
+			9fhwmuUwcWAZ7U5hR/qOEHJnwGUQHvTD+sPsrHEmGtk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
