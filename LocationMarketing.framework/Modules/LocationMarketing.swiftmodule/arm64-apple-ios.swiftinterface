@@ -40,7 +40,7 @@ import os
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CampaignCreativeView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var delegate: (any MapstedCore.LocationMarketingCreativeDelegate)?
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MapstedCore.LocationMarketingCreativeDelegate)?
   @_Concurrency.MainActor @preconcurrency public var isIndoor: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var showPropertyInfo: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var enableFavorite: Swift.Bool {
