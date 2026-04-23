@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LocationMarketing
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LocationMarketing
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreLocation
 import DeveloperToolsSupport
 import Foundation
@@ -19,7 +19,9 @@ import os.log
 import os
 @objc @_hasMissingDesignatedInitializers public class Region : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CampaignCreativeCollectionCell : UIKit.UICollectionViewCell {
@@ -27,16 +29,22 @@ import os
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CampaignCreativeTableCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor @preconcurrency public var campaignView: LocationMarketing.CampaignCreativeView!
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func prepareForReuse()
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CampaignCreativeView : UIKit.UIView {
@@ -72,24 +80,32 @@ public enum LocMarketingError : Swift.Error {
 }
 public protocol LocMarketingApiInterface : MapstedTriggersCore.InAppNotificationInterface, MapstedTriggersCore.PushAppNotificationPayload {
   func openWebURL(parent: UIKit.UIViewController, urlString: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   func getCampaigns(propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int) -> [MapstedCore.Campaign]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func fetchCampaignsForProperty(propertyId: Swift.Int, completion: (([MapstedCore.Campaign]?) -> Swift.Void)?)
+  #endif
   func setListener(listener: any MapstedTriggersCore.LocMarketingListener)
   func addNotificationListener(_ listener: any MapstedTriggersCore.MarketingBannerActionDelegate)
   func removeNotificationListener(_ listener: any MapstedTriggersCore.MarketingBannerActionDelegate)
 }
 @_hasMissingDesignatedInitializers public class LocMarketingApi {
   public static let shared: any LocationMarketing.LocMarketingApiInterface
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(completion: (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  #endif
   public static func hasInit() -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ViewControllerUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func topMostViewController(base: UIKit.UIViewController? = UIApplication.shared
         .connectedScenes
         .compactMap { $0 as? UIWindowScene }
         .flatMap { $0.windows }
         .first(where: { $0.isKeyWindow })?.rootViewController) -> UIKit.UIViewController?
+  #endif
   @objc deinit
 }
 extension MapstedCore.Creative : MapstedTriggersCore.TriggerCreative {
@@ -102,9 +118,11 @@ extension MapstedCore.Creative : MapstedTriggersCore.TriggerCreative {
   public var bodyStringAttributed: Foundation.NSAttributedString {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var logoImage: UIKit.UIImage? {
     get
   }
+  #endif
   public var baseUrlForImages: Swift.String {
     get
   }
@@ -120,12 +138,16 @@ extension MapstedCore.Creative : MapstedTriggersCore.TriggerCreative {
   public var positiveText: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var positiveAction: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var negativeAction: Swift.String? {
     get
   }
+  #endif
   public var triggerType: MapstedTriggersCore.TriggerType {
     get
   }
@@ -172,12 +194,14 @@ extension MapstedCore.Creative {
   public var arrNearByPropertyIds: [Swift.Int]
   public static let shared: LocationMarketing.PropertyGeofenceApi
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   public func boundaryCheck(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  #endif
   public func addBoundary(regionId: Swift.Int, name: Swift.String, centroid: MapstedCore.MNMercator, radius: Swift.Double, northEastPoint: MapstedCore.MNMercator, southWestPoint: MapstedCore.MNMercator)
   public func removeBoundary(regionId: Swift.Int)
 }
 extension LocationMarketing.PropertyGeofenceApi : CoreLocation.CLLocationManagerDelegate {
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
 }
 extension LocationMarketing.PropertyGeofenceApi : MapstedCore.NearbyPropertiesListener {
